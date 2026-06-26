@@ -1,0 +1,10 @@
+<div>
+    <h1>Enter a country name to see details</h1>
+    <br>
+    <input type="text" placeholder="enter a country name" [(ngModel)]="countryName">
+    <br>
+    <br>
+    <br>
+    <button class="button" (click)="getCountrySpecificData()"></button>
+    <textarea [(ngModel)]="resultjson" ></textarea>
+</div>
